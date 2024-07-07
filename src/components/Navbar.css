@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  /* font-size: 24px; */
+  /* font-weight: bold; */
+  /* border: 5px solid black; */
+  /* border: 1px solid silver; */
+  /* border-radius: 50%; */
+  margin-left: 10%;
+}
+
+select {
+  /* border: 5px solid darkblue; */
+  padding: 5px;
+  margin-left: 5%;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  font-size: 15px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  align-items: center; /* Center align links */
+  margin: 10px; /* Add margin to the right */
+  padding: 10px;
+  /* border: 2px solid olive; */
+  /* align-items: right; */
+  font-size: large;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-links .login {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.navbar-links .try-free {
+  padding: 5px 15px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
